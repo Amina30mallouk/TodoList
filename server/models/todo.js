@@ -1,7 +1,12 @@
 const mongoose = require('mongoose')
 
 const TodoSchema = new mongoose.Schema({
-    task: String
+    task: String,
+    done: {
+        type : Boolean,
+        default : false
+    
+    } 
 }
 )
 
