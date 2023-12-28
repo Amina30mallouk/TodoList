@@ -31,7 +31,10 @@ function Home(){
 
     return (
         <div className='home'>
-        <h1>Welcome to Todo App</h1>
+          <div className="Title">
+            <h1>To Do List</h1>
+          </div>
+        
         <Create />
         <br/>
 
